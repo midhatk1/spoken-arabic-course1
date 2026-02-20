@@ -1,0 +1,132 @@
+{
+  "course_id": "spoken-arabic-hebrew",
+  "level": 1,
+  "module": {
+    "module_id": "L1-M4",
+    "title_en": "Greetings & Social Etiquette",
+    "title_ar": "التحيات وآداب التعامل",
+    "order": 4
+  },
+  "lesson": {
+    "lesson_id": "L1-M4-LESSON-01",
+    "slug": "greetings-intro",
+    "title_en": "Greeting & Introducing Yourself (Respectful)",
+    "title_ar": "التحية والتعريف عن النفس",
+    "difficulty": "beginner",
+    "estimated_minutes": 12,
+    "tags": ["greetings", "introductions", "culture"],
+    "learning_outcomes": [
+      { "id": "CLO-4", "text": "Use common greetings and everyday expressions appropriately." },
+      { "id": "CLO-3", "text": "Construct simple spoken Levantine Arabic sentences." }
+    ],
+    "language_support": {
+      "site_languages": ["en", "ar"],
+      "includes_hebrew_notes": true,
+      "includes_transliteration": true,
+      "dialect": "levantine"
+    },
+    "content_blocks": [
+      {
+        "type": "goal",
+        "text_en": "Greet someone politely and introduce yourself in daily spoken Arabic.",
+        "text_ar": "تسلم على الناس بأدب وتعرّف عن حالك بالعربي المحكي."
+      },
+      {
+        "type": "dialogue",
+        "dialogue_id": "D1",
+        "lines": [
+          {
+            "id": "D1-L1",
+            "speaker": "A",
+            "ar": "مرحبا، كيفك؟",
+            "translit": "Marhaba, keefak?",
+            "en": "Hi, how are you? (to male)",
+            "he_notes": "كيفك = מה נשמע (דיבור יומיומי).",
+            "audio": {
+              "tts_text_ar": "مرحبا، كيفك؟",
+              "audio_url_slow": null,
+              "audio_url_normal": null
+            }
+          },
+          {
+            "id": "D1-L2",
+            "speaker": "B",
+            "ar": "منيح، الحمد لله. وإنت؟",
+            "translit": "Mnee7, el7amdulillah. W enta?",
+            "en": "Good, thank God. And you?",
+            "he_notes": "وإنت؟ = ואתה?",
+            "audio": {
+              "tts_text_ar": "منيح، الحمد لله. وإنت؟",
+              "audio_url_slow": null,
+              "audio_url_normal": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "vocabulary",
+        "items": [
+          { "ar": "مرحبا", "translit": "Marhaba", "en": "Hi", "he": "היי" },
+          { "ar": "كيفك؟", "translit": "Keefak?", "en": "How are you? (m)", "he": "מה שלומך? (זכר)" },
+          { "ar": "منيح", "translit": "Mnee7", "en": "Good", "he": "טוב" }
+        ]
+      },
+      {
+        "type": "mini_rule",
+        "title_en": "Quick rule: Spoken vs formal",
+        "title_ar": "قاعدة سريعة: محكي vs فصحى",
+        "text_en": "In Levantine Arabic, 'كيفك؟' is the everyday form. Formal Arabic uses 'كيف حالك؟'.",
+        "text_ar": "بالمحكي الشامي بنحكي «كيفك؟»، وبالفصحى «كيف حالك؟»."
+      },
+      {
+        "type": "practice",
+        "activities": [
+          {
+            "activity_id": "P1",
+            "kind": "listen_repeat",
+            "prompt_en": "Listen and repeat each line (slow then normal).",
+            "prompt_ar": "اسمع وكرر كل جملة (بطيء وبعدين عادي).",
+            "targets": ["D1-L1", "D1-L2"]
+          },
+          {
+            "activity_id": "P2",
+            "kind": "mcq",
+            "prompt_en": "What does 'منيح' mean?",
+            "prompt_ar": "شو معنى «منيح»؟",
+            "options": [
+              { "id": "a", "text_en": "Good", "text_ar": "منيح", "correct": true },
+              { "id": "b", "text_en": "Where", "text_ar": "وين", "correct": false },
+              { "id": "c", "text_en": "Name", "text_ar": "اسم", "correct": false }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "speaking_task",
+        "task_id": "S1",
+        "prompt_en": "Record yourself: greet someone and say how you are.",
+        "prompt_ar": "سجّل صوتك: سلّم واحكي كيفك.",
+        "expected_phrases": [
+          { "ar": "مرحبا، كيفك؟", "translit": "Marhaba, keefak?" },
+          { "ar": "منيح، الحمد لله.", "translit": "Mnee7, el7amdulillah." }
+        ],
+        "ai_feedback": {
+          "enabled": true,
+          "focus_sounds": ["ح", "خ", "ع", "ق"],
+          "scoring": ["pronunciation", "fluency", "accuracy"]
+        }
+      },
+      {
+        "type": "cultural_note",
+        "title_en": "Cultural note",
+        "title_ar": "ملاحظة ثقافية",
+        "text_en": "‘Ahlan w sahlan’ is a warm welcome used in many everyday situations.",
+        "text_ar": "«أهلا وسهلا» ترحيب لطيف ومنستخدمه كتير بالحياة اليومية."
+      }
+    ],
+    "completion": {
+      "pass_score": 70,
+      "required": ["P2", "S1"]
+    }
+  }
+}
