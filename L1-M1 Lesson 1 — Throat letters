@@ -1,0 +1,32 @@
+{
+  "lesson_id": "L1-M1-LESSON-01",
+  "module_id": "L1-M1",
+  "slug": "throat-letters-hha-ayn-kha",
+  "title_en": "Core Sounds: ح / ع / خ (Fast track for Hebrew speakers)",
+  "title_ar": "أصوات أساسية: ح / ع / خ",
+  "difficulty": "beginner",
+  "estimated_minutes": 14,
+  "content_blocks": [
+    { "type": "goal", "text_en": "Produce ح / ع / خ clearly in short words.", "text_ar": "تنطق ح / ع / خ بشكل واضح بكلمات قصيرة." },
+    {
+      "type": "sound_drill",
+      "items": [
+        { "letter": "ح", "example_ar": "حِلْو", "translit": "7ilw", "en": "sweet/nice", "he_notes": "קרוב ל-ח אבל יותר 'נשוף'." },
+        { "letter": "ع", "example_ar": "عَيْن", "translit": "3ayn", "en": "eye/spring", "he_notes": "גרוני. לא כמו ע בעברית מודרנית." },
+        { "letter": "خ", "example_ar": "خُبْز", "translit": "khobz", "en": "bread", "he_notes": "כמו כ/ח גרמני חזק." }
+      ]
+    },
+    {
+      "type": "speaking_task",
+      "task_id": "S-L1M1-1",
+      "prompt_en": "Record: say the three words 3 times each.",
+      "prompt_ar": "سجّل: قول الكلمات 3 مرات لكل وحدة.",
+      "expected_phrases": [
+        { "ar": "حِلْو", "translit": "7ilw" },
+        { "ar": "عَيْن", "translit": "3ayn" },
+        { "ar": "خُبْز", "translit": "khobz" }
+      ],
+      "ai_feedback": { "enabled": true, "focus_sounds": ["ح", "ع", "خ"], "scoring": ["pronunciation", "accuracy"] }
+    }
+  ]
+}
