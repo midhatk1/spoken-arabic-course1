@@ -1,0 +1,27 @@
+{
+  "lesson_id": "L1-M6-LESSON-02",
+  "module_id": "L1-M6",
+  "slug": "holidays-small-talk",
+  "title_en": "Holiday small talk (Hanukkah / Passover)",
+  "title_ar": "حكي بسيط عن الأعياد (حانوكا / الفِصح)",
+  "difficulty": "beginner",
+  "estimated_minutes": 12,
+  "content_blocks": [
+    {
+      "type": "dialogue",
+      "dialogue_id": "L1M6D2",
+      "lines": [
+        { "id": "1", "speaker": "A", "ar": "قريب عيد حانوكا.", "translit": "qariib 3iid 7anooka.", "en": "Hanukkah is soon." },
+        { "id": "2", "speaker": "B", "ar": "حلو! شو بتعملوا بالعيد؟", "translit": "7ilw! shoo bti3mلو بال3iid?", "en": "Nice! What do you do on the holiday?" },
+        { "id": "3", "speaker": "A", "ar": "بنولّع شموع وبنقعد مع العيلة.", "translit": "bnwalli3 shmoo3 w bnقعد ma3 el-3eile.", "en": "We light candles and sit with family." }
+      ]
+    },
+    {
+      "type": "cultural_note",
+      "title_en": "Cultural tip",
+      "title_ar": "نصيحة ثقافية",
+      "text_en": "Keep holiday talk warm and personal (food, family, traditions). Avoid politics in early conversations.",
+      "text_ar": "خليك بالحديث دافئ وشخصي (أكل، عيلة، عادات). وابتعد عن السياسة بأول تعارف."
+    }
+  ]
+}
