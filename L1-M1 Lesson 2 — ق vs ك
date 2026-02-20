@@ -1,0 +1,45 @@
+{
+  "lesson_id": "L1-M1-LESSON-02",
+  "module_id": "L1-M1",
+  "slug": "qaf-vs-kaf",
+  "title_en": "ق vs ك — Don’t mix them",
+  "title_ar": "ق vs ك — لا تخلط بينهم",
+  "difficulty": "beginner",
+  "estimated_minutes": 10,
+  "content_blocks": [
+    { "type": "goal", "text_en": "Differentiate ك (k) from ق (q).", "text_ar": "تميّز بين ك (ك) و ق (ق)." },
+    {
+      "type": "vocabulary",
+      "items": [
+        { "ar": "كبير", "translit": "kbiir", "en": "big" },
+        { "ar": "قهوة", "translit": "qahwe", "en": "coffee" }
+      ]
+    },
+    {
+      "type": "practice",
+      "activities": [
+        {
+          "activity_id": "MCQ-QK-1",
+          "kind": "mcq",
+          "prompt_en": "Which word means coffee?",
+          "prompt_ar": "أي كلمة معناها قهوة؟",
+          "options": [
+            { "id": "a", "text_ar": "قهوة", "text_en": "qahwe", "correct": true },
+            { "id": "b", "text_ar": "كبير", "text_en": "kbiir", "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "speaking_task",
+      "task_id": "S-L1M1-2",
+      "prompt_en": "Record: say 'qahwe' then 'kbiir' clearly.",
+      "prompt_ar": "سجّل: قول «قهوة» وبعدين «كبير» بوضوح.",
+      "expected_phrases": [
+        { "ar": "قهوة", "translit": "qahwe" },
+        { "ar": "كبير", "translit": "kbiir" }
+      ],
+      "ai_feedback": { "enabled": true, "focus_sounds": ["ق", "ك"], "scoring": ["pronunciation", "accuracy"] }
+    }
+  ]
+}
