@@ -1,0 +1,14 @@
+{
+  "course_id": "spoken-arabic-hebrew",
+  "level": 1,
+  "title_en": "Foundations",
+  "title_ar": "الأساسيات",
+  "modules": [
+    { "module_id": "L1-M1", "title_en": "Letters & Sounds", "title_ar": "الحروف والأصوات", "order": 1 },
+    { "module_id": "L1-M2", "title_en": "Reading Basics", "title_ar": "أساسيات القراءة", "order": 2 },
+    { "module_id": "L1-M3", "title_en": "Simple Spoken Sentences", "title_ar": "جُمل محكية بسيطة", "order": 3 },
+    { "module_id": "L1-M4", "title_en": "Greetings & Etiquette", "title_ar": "التحيات والذوق", "order": 4 },
+    { "module_id": "L1-M5", "title_en": "Questions for Daily Life", "title_ar": "أسئلة للحياة اليومية", "order": 5 },
+    { "module_id": "L1-M6", "title_en": "Jewish Culture in Arabic", "title_ar": "الثقافة اليهودية بالعربي", "order": 6 }
+  ]
+}
