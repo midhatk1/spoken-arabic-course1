@@ -1,0 +1,27 @@
+{
+  "lesson_id": "L1-M5-LESSON-01",
+  "module_id": "L1-M5",
+  "slug": "question-words",
+  "title_en": "Daily questions: وين / شو / قديش",
+  "title_ar": "أسئلة يومية: وين / شو / قديش",
+  "difficulty": "beginner",
+  "estimated_minutes": 12,
+  "content_blocks": [
+    {
+      "type": "vocabulary",
+      "items": [
+        { "ar": "وين؟", "translit": "ween?", "en": "where?" },
+        { "ar": "شو؟", "translit": "shoo?", "en": "what?" },
+        { "ar": "قديش؟", "translit": "addeesh?", "en": "how much?" }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "dialogue_id": "L1M5D1",
+      "lines": [
+        { "id": "1", "speaker": "A", "ar": "لو سمحت، وين الحمّام؟", "translit": "law sama7t, ween el-7ammaam?", "en": "Excuse me, where is the bathroom?" },
+        { "id": "2", "speaker": "B", "ar": "هناك، عاليمين.", "translit": "hunaak, 3al-yameen.", "en": "There, on the right." }
+      ]
+    }
+  ]
+}
