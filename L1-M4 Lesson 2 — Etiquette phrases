@@ -1,0 +1,20 @@
+{
+  "lesson_id": "L1-M4-LESSON-02",
+  "module_id": "L1-M4",
+  "slug": "etiquette-phrases",
+  "title_en": "Polite phrases you’ll use daily",
+  "title_ar": "جُمل مهذّبة بتستخدمها كل يوم",
+  "difficulty": "beginner",
+  "estimated_minutes": 8,
+  "content_blocks": [
+    {
+      "type": "vocabulary",
+      "items": [
+        { "ar": "لو سمحت", "translit": "law sama7t", "en": "please" },
+        { "ar": "شكرا", "translit": "shukran", "en": "thank you" },
+        { "ar": "عفوا", "translit": "3afwan", "en": "you're welcome / excuse me" }
+      ]
+    },
+    { "type": "speaking_task", "task_id": "S-L1M4-2", "prompt_en": "Record: please, thank you, excuse me.", "prompt_ar": "سجّل: لو سمحت، شكرا، عفوا.", "expected_phrases": [{ "ar": "لو سمحت، شكرا، عفوا", "translit": "law sama7t, shukran, 3afwan" }], "ai_feedback": { "enabled": true, "focus_sounds": ["ع", "ح"], "scoring": ["pronunciation"] } }
+  ]
+}
