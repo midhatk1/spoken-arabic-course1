@@ -1,0 +1,33 @@
+{
+  "lesson_id": "L1-M4-LESSON-01",
+  "module_id": "L1-M4",
+  "slug": "greetings-intro",
+  "title_en": "Greeting & Introducing Yourself",
+  "title_ar": "التحية والتعريف عن النفس",
+  "difficulty": "beginner",
+  "estimated_minutes": 12,
+  "content_blocks": [
+    { "type": "goal", "text_en": "Greet politely and introduce yourself.", "text_ar": "تسلم بأدب وتعرّف عن حالك." },
+    {
+      "type": "dialogue",
+      "dialogue_id": "L1M4D1",
+      "lines": [
+        { "id": "1", "speaker": "A", "ar": "مرحبا، كيفك؟", "translit": "Marhaba, keefak?", "en": "Hi, how are you? (m)" },
+        { "id": "2", "speaker": "B", "ar": "منيح، الحمد لله. وإنت؟", "translit": "Mnee7, el7amdulillah. W enta?", "en": "Good, thank God. And you?" },
+        { "id": "3", "speaker": "A", "ar": "أنا اسمي ___. تشرفنا.", "translit": "Ana esmi ___. Tsharrafna.", "en": "My name is ___. Nice to meet you." },
+        { "id": "4", "speaker": "B", "ar": "تشرفنا! إنت من وين؟", "translit": "Tsharrafna! Enta men ween?", "en": "Nice to meet you! Where are you from?" }
+      ]
+    },
+    {
+      "type": "speaking_task",
+      "task_id": "S-L1M4-1",
+      "prompt_en": "Record the dialogue as Speaker A.",
+      "prompt_ar": "سجّل الحوار كشخص A.",
+      "expected_phrases": [
+        { "ar": "مرحبا، كيفك؟", "translit": "Marhaba, keefak?" },
+        { "ar": "أنا اسمي ___. تشرفنا.", "translit": "Ana esmi ___. Tsharrafna." }
+      ],
+      "ai_feedback": { "enabled": true, "focus_sounds": ["ح", "ر", "ش"], "scoring": ["pronunciation", "fluency"] }
+    }
+  ]
+}
