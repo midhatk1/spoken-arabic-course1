@@ -1,0 +1,35 @@
+{
+  "lesson_id": "L1-M3-LESSON-02",
+  "module_id": "L1-M3",
+  "slug": "negation-ma",
+  "title_en": "Negation in spoken Arabic: ما",
+  "title_ar": "النفي بالمحكي: ما",
+  "difficulty": "beginner",
+  "estimated_minutes": 10,
+  "content_blocks": [
+    { "type": "goal", "text_en": "Say you don’t know / don’t have / don’t want.", "text_ar": "تحكي ما بعرف / ما عندي / ما بدي." },
+    {
+      "type": "vocabulary",
+      "items": [
+        { "ar": "ما بعرف", "translit": "ma ba3ref", "en": "I don't know" },
+        { "ar": "ما عندي", "translit": "ma 3indi", "en": "I don't have" },
+        { "ar": "ما بدي", "translit": "ma biddi", "en": "I don't want" }
+      ]
+    },
+    {
+      "type": "practice",
+      "activities": [
+        {
+          "activity_id": "MCQ-MA-1",
+          "kind": "mcq",
+          "prompt_en": "Which phrase means 'I don't want'?",
+          "prompt_ar": "أي جملة معناها «ما بدي»؟",
+          "options": [
+            { "id": "a", "text_ar": "ما بدي", "text_en": "ma biddi", "correct": true },
+            { "id": "b", "text_ar": "ما بعرف", "text_en": "ma ba3ref", "correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
