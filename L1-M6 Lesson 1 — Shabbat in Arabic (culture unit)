@@ -1,0 +1,39 @@
+{
+  "lesson_id": "L1-M6-LESSON-01",
+  "module_id": "L1-M6",
+  "slug": "shabbat-in-arabic",
+  "title_en": "Talking about Shabbat in Arabic",
+  "title_ar": "الحكي عن السبت بالعربي",
+  "difficulty": "beginner",
+  "estimated_minutes": 14,
+  "content_blocks": [
+    { "type": "goal", "text_en": "Explain Shabbat simply and respectfully in Arabic.", "text_ar": "تشرح السبت ببساطة وباحترام بالعربي." },
+    {
+      "type": "vocabulary",
+      "items": [
+        { "ar": "السبت", "translit": "es-sabt", "en": "Shabbat/Saturday", "he": "שבת" },
+        { "ar": "يوم راحة", "translit": "yoom raa7a", "en": "day of rest", "he": "יום מנוחה" },
+        { "ar": "كنيس", "translit": "kniis", "en": "synagogue", "he": "בית כנסת" },
+        { "ar": "صلاة", "translit": "salaah", "en": "prayer", "he": "תפילה" }
+      ]
+    },
+    {
+      "type": "sentence_patterns",
+      "items": [
+        { "pattern_ar": "عنا السبت يوم راحة.", "translit": "3anna es-sabt yoom raa7a.", "en": "For us, Shabbat is a day of rest." },
+        { "pattern_ar": "أحيانًا بروح عالكنيس.", "translit": "a7yaan-an بروح 3al-kniis.", "en": "Sometimes I go to the synagogue." }
+      ]
+    },
+    {
+      "type": "speaking_task",
+      "task_id": "S-L1M6-1",
+      "prompt_en": "Record 2 sentences about Shabbat.",
+      "prompt_ar": "سجّل جملتين عن السبت.",
+      "expected_phrases": [
+        { "ar": "عنا السبت يوم راحة.", "translit": "3anna es-sabt yoom raa7a." },
+        { "ar": "أحيانًا بروح عالكنيس.", "translit": "a7yaan-an بروح 3al-kniis." }
+      ],
+      "ai_feedback": { "enabled": true, "focus_sounds": ["ع", "ح", "ق"], "scoring": ["pronunciation", "fluency"] }
+    }
+  ]
+}
