@@ -1,0 +1,28 @@
+{
+  "lesson_id": "L1-M2-LESSON-01",
+  "module_id": "L1-M2",
+  "slug": "short-vowels-fast",
+  "title_en": "Reading Fast: َ ِ ُ (only what you need)",
+  "title_ar": "قراءة بسرعة: الحركات الأساسية",
+  "difficulty": "beginner",
+  "estimated_minutes": 12,
+  "content_blocks": [
+    { "type": "goal", "text_en": "Read simple syllables with short vowels.", "text_ar": "تقرأ مقاطع بسيطة بالحركات." },
+    {
+      "type": "reading_drill",
+      "items": [
+        { "ar": "بَ", "translit": "ba" },
+        { "ar": "بِ", "translit": "bi" },
+        { "ar": "بُ", "translit": "bu" }
+      ]
+    },
+    {
+      "type": "speaking_task",
+      "task_id": "S-L1M2-1",
+      "prompt_en": "Record: ba-bi-bu (3 times).",
+      "prompt_ar": "سجّل: بَ بِ بُ (3 مرات).",
+      "expected_phrases": [{ "ar": "بَ بِ بُ", "translit": "ba bi bu" }],
+      "ai_feedback": { "enabled": true, "focus_sounds": ["ب"], "scoring": ["pronunciation", "fluency"] }
+    }
+  ]
+}
