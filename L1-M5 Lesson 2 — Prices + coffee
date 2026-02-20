@@ -1,0 +1,30 @@
+{
+  "lesson_id": "L1-M5-LESSON-02",
+  "module_id": "L1-M5",
+  "slug": "price-coffee",
+  "title_en": "How much is a coffee?",
+  "title_ar": "قديش القهوة؟",
+  "difficulty": "beginner",
+  "estimated_minutes": 10,
+  "content_blocks": [
+    {
+      "type": "dialogue",
+      "dialogue_id": "L1M5D2",
+      "lines": [
+        { "id": "1", "speaker": "A", "ar": "قديش القهوة؟", "translit": "addeesh el-qahwe?", "en": "How much is the coffee?" },
+        { "id": "2", "speaker": "B", "ar": "عشرة شيكل.", "translit": "3ashara shekel.", "en": "Ten shekels." }
+      ]
+    },
+    {
+      "type": "speaking_task",
+      "task_id": "S-L1M5-2",
+      "prompt_en": "Record: ask the price and repeat the answer.",
+      "prompt_ar": "سجّل: اسأل عن السعر وكرر الجواب.",
+      "expected_phrases": [
+        { "ar": "قديش القهوة؟", "translit": "addeesh el-qahwe?" },
+        { "ar": "عشرة شيكل.", "translit": "3ashara shekel." }
+      ],
+      "ai_feedback": { "enabled": true, "focus_sounds": ["ق", "ش"], "scoring": ["pronunciation", "accuracy"] }
+    }
+  ]
+}
